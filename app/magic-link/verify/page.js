@@ -1,13 +1,13 @@
 "use client";
 
-import { useParams } from "next/navigation";
+import { useSearchParams } from "next/navigation";
 
 const VerifyPage = () => {
-  const params = useParams();
+  const params = useSearchParams();
   return (
     <div>
-      <p>email: {params.email}</p>
-      <p>token: {params.token}</p>
+      <p>email: {params.get("email")}</p>
+      <p>token: {params.get("token")}</p>
     </div>
   );
 };
