@@ -1,0 +1,19 @@
+{
+  "applinks": {
+    "apps": [],
+    "details": [
+      {
+        "appID": "K6C4XYPX3L.asia.chip.expense.staging",
+        "paths": [
+          "*"
+        ]
+      },
+      {
+        "appID": "K6C4XYPX3L.asia.chip.expense",
+        "paths": [
+          "*"
+        ]
+      }
+    ]
+  }
+}
