@@ -1,12 +1,13 @@
-import { useRouter } from "next/router";
+"use client";
+
+import { useParams } from "next/navigation";
 
 const VerifyPage = () => {
-  const { query } = useRouter();
-  const { email, token } = query;
+  const params = useParams();
   return (
     <div>
-      <p>email: {email}</p>
-      <p>token: {token}</p>
+      <p>email: {params.email}</p>
+      <p>token: {params.token}</p>
     </div>
   );
 };
